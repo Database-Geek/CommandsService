@@ -49,6 +49,20 @@
               "target": "Package",
               "version": "[12.0.0, )"
             },
+            "Google.Protobuf": {
+              "target": "Package",
+              "version": "[3.21.7, )"
+            },
+            "Grpc.Net.Client": {
+              "target": "Package",
+              "version": "[2.49.0, )"
+            },
+            "Grpc.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.49.1, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.9, )"
@@ -66,6 +80,10 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[6.0.9, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.4.0, )"
             },
             "Serilog": {
               "target": "Package",
